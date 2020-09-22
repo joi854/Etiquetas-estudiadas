@@ -1,0 +1,34 @@
+/*este es un ejemplo de la etiqueta bacground con la propiedad color*/
+body
+{
+    background-color: aqua;
+}
+p{
+    color: blue;
+}
+div {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+  }
+  p {
+    border-left: red 5px solid;
+  }
+  p {
+    border-top: black 5px dashed;
+    border-left: red 5px solid;
+  }
+  p {
+    border-top: black 5px dashed;
+    border-bottom: blue 10px dotted;
+    border-left: red 5px solid;
+  }
+  p {
+    border-top: black 5px dashed;
+    border-right: green 10px double;
+    border-bottom: blue 10px dotted;
+    border-left: red 5px solid;
+  }
